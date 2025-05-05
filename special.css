@@ -1,0 +1,82 @@
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation  Bar: Logo and Image */
+#logo{
+    margin: 20px 34px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation bar: list styling*/
+#navbar{
+    position: relative;
+}
+
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.93;
+}
+
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 45px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+#Special{
+    margin: 34px;
+    display: flex;
+}
+#Special .h-primary{
+    text-align: center;
+}
+#Special h4{
+    text-align: center;
+}
+#Special .box{
+    border: 2px solid black;
+    padding: 0px;
+    margin: 3px 100px;
+    background: #101010;
+}
+#Special .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+#Special h1{
+    text-align: center;
+}
+#Special h3{
+    text-align: center;
+}
